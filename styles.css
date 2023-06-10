@@ -1,0 +1,42 @@
+.container {
+    border-color: #ed5e25;
+    color: burlywood;
+    
+    width: 300px;
+    min-height: 300px;
+    border: 2px solid;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.item {
+    background-color: #f93e3e;
+    border-color: #ff460d;
+    padding: 5px;
+    margin: 5px;
+    cursor: move;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+#target-container {
+    border-color: #78ef49;
+    
+}
+
+.success {
+    background-color: lightgreen;
+    
+}
+
+button {
+    margin-top: 10px;
+    background-color: yellow;
+    columns:red;
+}
